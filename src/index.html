@@ -1,13 +1,111 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>CEP Engineering Application</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-  </head>
-  <body>
-    // All of your HTML goes here
-    <script src="init.js"></script>
-  </body>
+<html lang="eng">
+    <head>
+      <title>Lance's CEP Engineering Appliation</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="styles.css">
+      <link href="https://fonts.googleapis.com/css?family=Alegreya|Lato" rel="stylesheet"> 
+    </head>
+    <body>
+      <header>
+          <div class="row">
+              <div class="column-l-80">
+        <h1>&lt;h1&gt;HELLO&lt;br&gt;<br />GARDEN&lt;/h1&gt;</h1>
+            </div>
+            <div class="column-r-20">
+                <img src="img/gardener.png" alt="gardener.png" width=250px>
+                    </div>
+      </header>
+
+      <div class="row">
+          <div class="column accordion">
+            <h5 class="accordion-header">First Name</h5>
+            <p id="first_name" class="accordion-content"></p>
+          </div>
+          <div class="column accordion">
+              <h5 class="accordion-header">Last Name</h5>
+              <p id="last_name" class="accordion-content"></p>
+          </div>
+          <div class="column accordion">
+              <h5 class="accordion-header">Job Title</h5>
+              <p id="job_title" class="accordion-content"></p>
+          </div>
+          <div class="column accordion">
+              <h5 class="accordion-header">Home Office</h5>
+              <p id="home_office" class="accordion-content"></p>
+            </div>
+            <div class="column accordion">
+                <h5 class="accordion-header">Tell Me More</h5>
+                <p id="tell_me_more" class="accordion-content"></p>
+              </div>
+        </div>
+
+        <h2><b>February</b> <i>in the Garden</i></h2>
+        <div class="row">
+          <div class="column-l-50">
+                <div class="circle-4"> <h6><em>PREPARE & MAINTAIN</em></h6>
+                  <ul>
+                    <li>Water plants well before freezing temperatures occur. Make sure plants are mulched to protect them from cold.</li>
+                    <li>Watch the forecast and protect garden plants with row cover if temperatures will be below 28 degrees F.</li>
+                    <li>Purchase seed potatoes and pre-sprout for planting.</li>
+                    <li>Add compost and fertilizer to planting beds.</li>
+                    <li>Prune, feed and mulch roses.</li>
+                    <li>Cut back and turn in cover crops to prepare beds for planting.</li>
+                  </ul>
+              </div>
+              <div class="circle-3"> 
+                <h6><em>HARVESTING NOW</em></h6>
+                  <ul>
+                    <li>Arugula</li>
+                    <li>Beets</li>
+                    <li>Carrots</li>
+                    <li>Chard</li>
+                    <li>Kale</li>
+                    <li>Leeks</li>
+                    <li>Lettuce</li>
+                  </ul>
+              </div>
+            </div>
+            <div class="column-r-50">
+              <div class="circle-1"> <h6><em>SOW & PLANT INDOORS</em></h6>
+                <ul>
+                  <li>Start tomatoes, peppers and eggplant seeds</li>
+                  <li>Start containers of lettuce in sunny windows for indoor winter salads</li>
+                </ul>
+              </div>
+              <div class="circle-2"> 
+                <h6><em>SOW & PLANT OUTDOORS</em></h6>
+                <ul>
+                  <li>Plant lettuce, cabbage, radishes, turnips and spinach seeds. Repeat every two weeks for regular harvests</li>
+                  <li>Plant transplants of broccoli, cabbage, cauliflower, collards and mustard greens</li>
+                  <li>Plant peas and protect them from birds with row covers</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+
+      <div class ="row divider"></div>
+
+      <div class="flex-container">
+          <aside class="main">
+            <p>The USDA Hardiness Zone Map divides North America into 11 separate planting zones; each growing zone is 10°F warmer (or colder) in an average winter than the adjacent zone. If you see a hardiness zone in a gardening catalog or plant description, chances are it refers to this USDA map. Planting vegetable seeds or transplants at the correct time is important to getting the most out of your garden. Knowing your first and last frost dates will help you start your vegetable seeds at the right time.</p><br />
+              <p>Texas is in USDA plant hardiness zones 6-9. Use this map to find your hardiness zone.</p>
+          </aside>
+        
+          <aside id="ex1" class=" aside aside2 shadow">
+              <div class="zoom" style="position: relative; overflow: hidden;">
+              <img src="img/south_central_us_plant_hardiness_zone_map.png" alt="South Central US Plant Hardiness Zone Map" class="zoomImg" width=550px shadow=10px>   
+              </div> 
+          </aside>
+      </div>
+    </div>
+
+<div class ="row divider"></div>
+    
+<footer class="footer"> 
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <script src="init.js"></script>
+      <script src="zoom.js"></script>
+    </body>
 </html>
